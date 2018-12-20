@@ -65,13 +65,13 @@ void getNotesAndIntervals() {
 	}
 }
 
-/**
-* Simply adds the interval to the note and formats accordingly
-* Accounts for octave changes
-*
-* @param intrvl    the interval to be added to note
-* @param oIndx     the initial index of the current note
-* @param length    the length of scale array
+/*
+Simply adds the interval to the note and formats accordingly
+Accounts for octave changes
+
+intrvl    the interval to be added to note
+oIndx     the initial index of the current note
+length    the length of scale array
 */
 void addInterval(int intrvl, int oIndx, int length) {
 
